@@ -4,10 +4,10 @@
 ############################################################
 
 # Set the base image to Ubuntu
-FROM centos:latest
+FROM centos:7
 
 # File Author / Maintainer
-MAINTAINER Kaushal Kishore <kaushal.rahuljaiswal@gmail.com>
+# MAINTAINER Kaushal Kishore <kaushal.rahuljaiswal@gmail.com>
 
 # Add the ngix and PHP dependent repository
 ADD nginx.repo /etc/yum.repos.d/nginx.repo
