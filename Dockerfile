@@ -1,6 +1,6 @@
 ############################################################
 # Dockerfile to build CentOS,Nginx installed  Container
-# Based on CentOS
+# Based on CentOS 7
 ############################################################
 
 # Set the base image to Ubuntu
